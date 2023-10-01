@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather:wght@400;700&display=swap');
+
+
+
+.main {
+    display:flex;
+    
+}
+.left {
+    background-color: #F7FAFC;
+height: 100vh;
+    width:50vw;
+    display:flex;
+    align-items:center;
+    justify-content:center
+   
+}
+
+.right {
+    height: 100vh;
+    width:50vw;
+    display:flex;
+    align-items:center;
+    justify-content:center
+}
+
+.principal {
+    margin-top:5rem;
+}
+.principal > h1{
+width: 380px;
+
+}
+
+.principal > h3 {
+font-family: 'Merriweather', sans-serif;
+font-weight:400;
+}
+.principal > h1 {
+    font-family: 'Merriweather', sans-serif;
+    font-weight:700;
+    }
+
+form {
+
+    margin-top:2rem;
+
+    display: flex;
+    flex-direction:column;
+    gap:8px;
+    font-family:'Lato', sans-serif;
+    font-weight:400;
+}
+
+form > input {
+    padding: 10px 30px 15px 10px;
+   display:flex;
+   justify-content:center;
+   
+   font-family:'Lato', sans-serif;
+   font-weight:bold ;
+   border:2px #E0E0E0 solid;
+   border-radius:5px;
+}
+
+.botoes {
+
+
+    font-family:'Lato', sans-serif;
+    font-weight:400;
+
+
+    margin-top:30px;
+
+    display:flex;
+    justify-content:space-between;
+}
+
+.botoes > a {
+    color:#2B6CB0;
+    text-decoration:none;
+}
+
+.botoes-2 {
+    margin-top:20px;
+
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+}
+
+.botao-verde {
+    border:0px;
+    border-radius:5px;
+    background-color:#04C35C;
+    padding: 20px 50px;
+    color: #FFFFFF;
+    font-family:'Lato', sans-serif;
+    font-weight:700;
+}
+
+.botao-google {
+    border:0px;
+    border-radius:5px;
+    padding: 20px 50px;
+
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    gap:15px;
+    background-color: #1A202C;
+    font-family:'Lato', sans-serif;
+    font-weight:700;
+    color: #FFFFFF
+
+    
+}
+
+.sem-conta {
+
+    margin-top:5rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:5px;
+    font-family:'Lato', sans-serif;
+    font-weight:400;
+    
+}
+
+.sem-conta > a {
+    text-decoration:none;
+    color: #2B6CB0;
+    
+}
+
+
